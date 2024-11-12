@@ -1,0 +1,293 @@
+/* Google fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/* Font Awesome for the burger icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
+header {
+    background-color: #b8f2f6;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Center the logo */
+#logo {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navbar styles */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-right: 50px;
+    display: flex;
+    background-color: #b8f2f6;
+}
+
+#menu > li {
+    margin: 0 1rem;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+nav {
+    position: absolute;
+    background-color: #b8f2f6;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/*
+/* Navbar styles with dropdown toggle */
+
+#nav-toggle {
+    display: none;
+}
+
+/* Navbar toggle for mobile */
+.nav-toggle-label {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-toggle-label {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 40px;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        background-color: #b8f2f6;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        padding: 1rem 0;
+    }
+
+    #nav-toggle:checked + .nav-toggle-label + nav #menu {
+        display: flex;
+    }
+
+    #logo {
+        font-size: 2rem;
+    }
+}
+
+/* Main content */
+main {
+    flex: 1;
+    margin-top: 60px;
+    padding: 1rem;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 117, 40, 0.7);
+    font-size: 1rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25%;
+    height: 25%;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    #cover-text {
+        font-size: 1rem;
+        width: auto;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Gallery page */
+#photos img {
+    width: 98%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/* Form */
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #16aeab;
+    color: #fafafa;
+}
+
+/* Footer */
+footer {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive styles for gallery and signup pages */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #logo {
+        font-size: 2.8rem;
+    }
+
+    main {
+        margin-top: 79px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+        top: 30px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
+    }
+}
