@@ -327,6 +327,12 @@ main {
     color: #fafafa;
 }
 
+#comments::placeholder {
+    font-size: 1.1em;  /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #f4f6f6;    /* Adjust color if needed for better visibility */
+}
+
 /* Footer */
 footer {
     background-color: #2e2e2e;
