@@ -291,3 +291,40 @@ footer {
         column-count: 4;
     }
 }
+
+--------------------------------------------------------------------------------
+
+
+@media screen and (max-width: 360px) {
+    .logo {
+        width: 60%; /* Set width of logo */
+    }
+
+    .burger-bar {
+        width: 20px; /* Set width of burger icon */
+    }
+}
+
+.logo {
+    flex-shrink: 1; /* Allow logo to reduce in size */
+} */
+
+/* Adjust styling specifically for small screens */
+@media screen and (max-width: 360px) {
+    .header {
+        padding: 5px 10px; /* Reduce padding to create more room */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Reduce font size slightly */
+        margin-right: auto; /* Push logo to the left */
+    }
+
+    .burger-bar {
+        margin-left: auto; /* Push burger icon to the right */
+    }
+}
+
+.logo {
+    flex-shrink: 1; /* Allow logo to reduce in size */
+}
