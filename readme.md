@@ -1,8 +1,8 @@
 # **Surfing & Paradise** 
-Website URL: https://github.com/AllaboutDee/P1
+Website URL: [Surfing & Paradise GitHub Repository](https://github.com/AllaboutDee/P1)
 
 ## **Site Overview**
-Welcome to **Surfing & Paradise** – a community-driven site that connects surfing enthusiasts of all levels. Whether you're a beginner, intermediate, or advanced, Surfing & Paradise offers resources and events for skill-building, community engagement, and fun experiences. Our club fosters a supportive environment where members can explore and travel together, enjoy beach culture, and make lasting friendships. 
+Welcome to **Surfing & Paradise** – a community-driven site that connects surfing enthusiasts of all levels. Whether you're a beginner or a seasoned pro, Surfing & Paradise offers resources and events for skill-building, community engagement, and fun experiences. Our club fosters a supportive environment where members can explore and travel together, enjoy beach culture, and make lasting friendships. 
 
 Surfing & Paradise hosts regular events, such as beach parties, picnics, and campfires, so members can relax and unwind after a surfing session. Families are welcome, as we encourage members to bring their kids along to share this family-friendly sport. This website aims to serve as an engaging, user-friendly guide for surf lovers. Built with a responsive, mobile-first approach, its layout caters to various content areas, ensuring ease of navigation and visual appeal.
 
@@ -34,6 +34,7 @@ Surfing & Paradise hosts regular events, such as beach parties, picnics, and cam
         * [*Further Testing*](#Further-Testing)
 1. [**Accessibility**](#Accessibility)
 1. [**Known Bugs**](#Known-Bugs)
+1. [**PLanned Fixes**](#Planned-Fixes)
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
     * [**Honourable mentions**](#honorable-mentions)
@@ -41,7 +42,7 @@ Surfing & Paradise hosts regular events, such as beach parties, picnics, and cam
     * [**Content**](#content)
     * [**Media**](#media)
 
-## Planning Stage
+## Project Planning 
 
 In the planning stage, key elements were defined to shape the site’s structure, focusing on user experience (UX) principles, aesthetic style, and interactive features for both desktop and mobile views. Each section is designed to enhance engagement and usability.
 
@@ -58,12 +59,12 @@ In the planning stage, key elements were defined to shape the site’s structure
 ### **User Stories:**
 
 * As a user, I want to navigate easily across the site to find relevant information.
-* As a user I want to see upcoming events easily.
-* As a user I want to easily see what the website is about.
-* As a user I want to see an aesthetically pleasing website.
-* As a user I want to know my information is safe and secure so that I can interact with others confidently.
-* As a user, I want the site to be accessible and look visually appealing on my mobile, ipad and laptop device.
-* As a user and a prospective member, I want a clear sign-up form to join.
+* As a user, I want to see upcoming events effortlessly.
+* As a user, I want to quickly understand what the website is about.
+* As a user, I want the site to look aesthetically pleasing across devices (mobile, tablet and laptop).
+* As a user, I want my personal information to be secure.
+* As a user, I want the site to be accessible on all my devices (mobile, ipad and laptop device).
+* As a user and prospective member, I want a clear sign-up form to join.
 * As a user and current member, I want up-to-date information on upcoming events and meetups.
 
 ### **Site Aims:**
@@ -83,16 +84,16 @@ Each aim is reflected in the design choices, such as the use of high-quality ima
 
 ### **Wireframes:**
 
-*Add wireframe visuals here:*
-Initially I drew a very basic draft of what the webpages may look like on mobile view. 
+Initially I drew a very basic draft of what the webpages may look like on mobile view: 
 
-[Homepage/Gallery/Signup] (![alt text](assets/images/screenshots/draft_mobile_view.jpg))
+Drafts for the mobile view were sketched manually:  
+![Mobile Drafts](assets/images/screenshots/draft_mobile_view.jpg)
 
-Once the website was complete Am I Responsive tool was used display the website on different screen sizes:
-    * ![Homepage] ![alt text](assets/images/screenshots/Am_I_Responsive.jpg) ![alt text](assets/images/screenshots/Am_I_Responsive2.jpg) ![alt text](assets/images/screenshots/Am_I_Responsive3.jpg)
-    
-    * ![Gallery] (assets/images/screenshots/Am_I_Responsive_Gallery.jpg)
-    * ![Signup] (assets/images/screenshots/Am_I_Responsive_signup.jpg)
+Finalized designs were displayed across various screen sizes using the Am I Responsive tool:  
+![Responsive Views](assets/images/screenshots/Am_I_Responsive.jpg)
+ ![alt text](assets/images/screenshots/Am_I_Responsive2.jpg) ![alt text](assets/images/screenshots/Am_I_Responsive3.jpg)
+ ![Gallery](assets/images/screenshots/Am_I_Responsive_Gallery.jpg)
+ ![Signup](assets/images/screenshots/Am_I_Responsive_signup.jpg)
     
 
 ### **Color Scheme:**
@@ -113,13 +114,13 @@ I selected a vibrant color scheme inspired by the sea, with blues and greens as 
     - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub was used to store the project code after being pushed from Git.
-1.  [VisualStudioCode:] (https://code.visualstudio.com/)
+1.  [VisualStudioCode:](https://code.visualstudio.com/)
     1.  Visual Studio Code was used to write the project code and then pushed through to the Git Repository.
-1. [Favicon.io:] (https://favicon.io/)
+1. [Favicon.io:](https://favicon.io/)
     - Favicon.io was used to create a favicon to display in the browser. Image of a man holding a surfboard was downloaded from pixabay. This was this uploaded to favicon.io to convert the image and create the favicon item. 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the navigation links
-1. [Pixabay:] (https://pixabay.com/)
+1. [Pixabay:](https://pixabay.com/)
     - Pixabay was used source royalty-free images for the website.
 1. [Pexels:](https://www.pexels.com/)
     - Pexels was used to source royalty-free images for the website.
@@ -127,6 +128,11 @@ I selected a vibrant color scheme inspired by the sea, with blues and greens as 
 ---
 
 ## **Current Features Common to all pages**
+## **Browser** 
+
+The browser for any page displays the favicon I generated using the favicon.io tool.
+[Favicon](assets/Favicon/favicon-32x32.png)
+
 ### **Main body**
 The site has a consistent layout across all pages, with shared header and footer elements for easy navigation and a unified look.
 
@@ -138,7 +144,7 @@ The header is used throughout the site to hold the navigation bar and the site t
 - **Navigation Bar**: A responsive, mobile-first menu that adjusts for various screen sizes.
 - **Design**: The basic layout of the header, footer and logo is the same across the pages.
 
-[Header] (assets/images/header.png)
+[Header](assets/images/header.png)
 
 ### *Footer:*
 The footer contains links to social media platforms (Facebook, X-app, YouTube, Instagram), with white icons on a dark grey background for a sleek, contrasting finish.
@@ -146,8 +152,12 @@ The footer contains links to social media platforms (Facebook, X-app, YouTube, I
 [Footer:] (assets/images/footer.png)
 
 ## **Future-Enhancements**
-????
-arties, picnics, and campfires, so members can relax and unwind after a surfing session. Families are welcome, as we encourage members to bring their kids along to share this family-friendly sport. This website aims to serve as an engaging, user-friendly guide for surf lovers. Built with a responsive, mobile-first approach, its layout caters to various content areas, ensuring ease of navigation and visual appeal.
+
+- **Expanded Event Calendar**: Introduce more events for easier future planning. Introduce interactive elements such as clickable links with more information and ability to book events.
+- **Blog/News Section**: Include a blog for surfing-related articles and club updates. 
+- **E-commerce Feature**: Introduce an online store for club-branded merchandise, including surfboards, apparel, and accessories.
+- **More Information**: Add details on membership fees, surf classes, instructor bios, and community resources. Add another page dedicated to information on surfing, tutorials, recommended surfing destinations and guidance on recommended surfing kits.
+- **FAQ or Troubleshooting**: Include a FAQ or Troubleshooting section for common user queries.
 
 ---
 
@@ -193,42 +203,58 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Testing User Stories from User Experience (UX) Section
 
 1. As a user, I want to navigate easily across the site to find relevant information.
-    1. The navigation bar is simple and easy to use. In mobile view this becomes a burger bar with a drop down option.
-2. As a user I want to see upcoming events easily.
-    1. The upcoming events are clearly listed on the home page, with the location and date.
-3. As a user I want to easily see what the website is about.
-    1. The website is clear and logical. Information is in relevant sections and in small chunks and it is not over-crowded. 
-4. As a user I want to see an aesthetically pleasing website.
-    1. The website is layed out nicely into sections with stunning pictures and a vibrant colour palette is used throughout.
-5. As a user I want to know my information is safe and secure so that I can interact with others confidently.
-    1. Users can complete the signup form safely and securely, which allows them to submit basic information such as their name and email address along with their questions or reason for contact. They can easily sign up to the newsletter.
-    2. Currently the basic details are entered and someone will respond off the back of the query. At this stage the website does not ask more personal information then that but as the website grows it will list more information and allow customers to sign up for membership on line and buy merchandise at which point more safety features would be added. 
-    3. At this stage of the build, the functionality for chat, sign-in and profile pages has not been implemented. 
-6. As a user, I want the site to be accessible and look visually appealing on my mobile, ipad and laptop device.
-    1. The website design is responsive  from mobile to ipad to laptop in most cases. There is an slight issue where the logo and menu overlap on Samsung S8+ and Galaxy Z fold 5. Also there is an issue where the header and cover-text overlap on ipad Mini. Due to time constraints this issue has not yet been correct.  
-7. As a user and a prospective member, I want a clear sign-up form to join
-    1. The signup form has a very simple layout. It is easy to understand and use. It offers the option of signing up to the newsletter, leaving a comment or asking a question. You can enter your level of surfing expertise aswell. 
+
+    1. The navigation bar is simple and intuitive. On mobile devices, it transforms into a burger menu with a dropdown for easy access.
+2. As a user, I want to see upcoming events effortlessly.
+
+    1. Upcoming events are prominently displayed on the homepage, featuring details like location and date.
+3. As a user, I want to quickly understand what the website is about.
+
+    1. The website layout is clear and logical. Information is divided into relevant sections, presented concisely, and avoids overcrowding.
+4. As a user, I want the site to look aesthetically pleasing across devices.
+
+    1. The website is visually appealing, with a vibrant color palette and stunning images. Sections are well-organized to enhance user experience.
+5. As a user, I want my personal information to be secure.
+
+    1. Users can safely complete the sign-up form to provide basic details such as name, email, and comments or questions.
+    1. Currently, only essential details are collected. Future iterations may include membership options, merchandise purchases, and enhanced security features.
+    1. Advanced functionalities like chat, user sign-in, and profile pages are planned for future development.
+6. As a user, I want the site to be accessible and visually appealing on my mobile, tablet, and laptop devices.
+
+    1. The website design is responsive, adapting to screens of various sizes.
+    1. Known issues:
+        - Logo and menu overlap on Samsung Galaxy S8+ and Galaxy Z Fold 5.
+        - Header and cover text overlap on iPad Mini.
+        - These issues remain unresolved due to time constraints but are noted for future improvements.
+7. As a user and prospective member, I want a clear sign-up form to join.
+
+    1. The sign-up form is straightforward and user-friendly. It allows users to:
+        - Subscribe to the newsletter.
+        - Leave comments or ask questions.
+        - Indicate their surfing expertise level.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
+-  **Website Testing**: The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 -   The website was viewed on a variety of devices such as Desktop, Laptop and android phones.
--   Testing was done to ensure that all pages were linking correctly without time delays.
--   Friends and family members were asked to review the site and documentation to point out     any bugs and/or user experience issues.
+- **Link Testing**: All internal/external links were tested manually to confirm they redirect to the correct pages without delays.  
+- **User experience**: Friends and family members were asked to review the site and documentation to identify whether there were any bugs and/or user experience issues.
 
 ### Accessibility
 
-- **Images**: All include `alt` tags for screen readers.
+- **Screen Reader Optimization**: All images include `alt` tags for screen readers.
 - **Image Formats**: Optimized with webp and jpg for fast loading.
 - **Responsive Design**: Adapts to different screen sizes.
+- **Keyboard Navigation**: The site is navigable without a mouse.
 - **Semantic Elements**: Used throughout for readability and accessibility
 
-### ***Known Bugs***
+## Known Bugs
 
- Logo and burger menu overlap on Galaxy S8+ and Galaxy Z Fold 5. Unable to rectify due to time constraints.
-- Home page cover image partly hidden by the header on iPad Mini view. Unable to fix due to time constraints. 
+* Logo and burger menu overlap on Galaxy S8+ and Galaxy Z Fold 5. 
+* The header partially hides cover image on iPad Mini view.
 
-Fixes are planned in the future.
+**Planned Fixes**:  
+These layout issues will be prioritized for resolution in future iterations.
 
 ---
 
@@ -246,24 +272,26 @@ I deployed the page on GitHub pages via the following procedure: -
 
 ### **Honourable mentions**
 
- I would like to thanks a few of my fellow bootcampers for their support in resolving issues that I stumbled upon, listed in no particular order:
+ I would like to thank a few of my fellow bootcampers for their support in resolving issues that I stumbled upon, listed in no particular order:
 
 - [Jasmine Price](https://github.com/jevpr): Provided guidance on code issues.
 - [Asraf](https://github.com/PATH-HIVE): Offered support with GitHub and project encouragement.
 
 
-### **General reference:**
+### **General Reference:**
 
-- Resources: Code Institute, YouTube, W3Schools, and Stack Overflow.
-- Original site structure: Based on Code Institute's "Love Running" project.
-- Readme.md layout inspired by the project Tribe by Adelle King (https://github.com/AdelleKing/Tribe/blob/main/README.md). I particularly like the thoroughness of the content.
+- Resources: Code Institute, YouTube, W3Schools, freeCodeCamp, MDN Web Docs and Stack Overflow.
+
+- Original site structure: Based on Code Institute's "Love Running" project, with additional features and styling tailored for the surfing community.
+- Readme.md layout inspiration: Tribe project by Adelle King (https://github.com/AdelleKing/Tribe/blob/main/README.md). I particularly like the thoroughness of the content.
+- Deployment Reference: GitHub Pages documentation and various GitHub tutorials for seamless live site hosting.
 
 ### **Content:**
 * Most of the content was written by myself, the project author.
 * Icons used across the website were taken from [Font Awesome](https://fontawesome.com) 
 
 ### **Media:**
-* Images used for activities were taken from [Pexels](https://www.pexels.com/) and [Pixabay] (https://www.pixabay.com)
+* Images used for activities were taken from [Pexels](https://www.pexels.com/) and [Pixabay](https://www.pixabay.com)
 
 ---
 
