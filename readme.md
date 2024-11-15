@@ -44,7 +44,7 @@ Surfing & Paradise hosts regular events, such as beach parties, picnics, and cam
 
 ---
 ### **Planning stage:**
-    In the planning stage, key elements were defined to shape the website’s structure, including user experience (UX) principles, aesthetic style, and interactive features. Each section was designed to enhance engagement and usability, focusing on mobile, ipad and laptop views.
+* In the planning stage, key elements were defined to shape the website’s structure, including user experience (UX) principles, aesthetic style, and interactive features. Each section was designed to enhance engagement and usability, focusing on mobile, ipad and laptop views.
 
 ### **Target Audiences:**
 * Surfing enthusiasts of all levels
