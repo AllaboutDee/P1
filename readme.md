@@ -88,6 +88,8 @@ Initially I drew a very basic draft of what the webpages may look like on mobile
 
 Drafts for the mobile view were sketched manually:  
 ![Mobile Drafts](assets/images/screenshots/draft_mobile_view.jpg)
+![Mobile Drafts](assets/images/screenshots/draft_mobile_view.jpeg)
+
 
 Finalized designs were displayed across various screen sizes using the Am I Responsive tool:  
 ![Responsive Views](assets/images/screenshots/Am_I_Responsive.jpg)
