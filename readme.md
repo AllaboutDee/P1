@@ -46,7 +46,7 @@ Surfing & Paradise hosts regular events, such as beach parties, picnics, and cam
 
 In the planning stage, key elements were defined to shape the site’s structure, focusing on user experience (UX) principles, aesthetic style, and interactive features for both desktop and mobile views. Each section is designed to enhance engagement and usability.
 
-### **Planning stage**
+### **Planning stage:**
     In the planning stage, key elements were defined to shape the website’s structure, including user experience (UX) principles, aesthetic style, and interactive features. Each section was designed to enhance engagement and usability, focusing on both desktop and mobile views.
 ### **Target Audiences:**
 * Surfing enthusiasts of all levels
@@ -88,7 +88,6 @@ Initially I drew a very basic draft of what the webpages may look like on mobile
 
 Drafts for the mobile view were sketched manually:  
 ![Mobile Drafts](assets/images/screenshots/draft_mobile_view.jpg)
-![Mobile Drafts](assets/images/screenshots/draft_mobile_view.jpeg)
 
 
 Finalized designs were displayed across various screen sizes using the Am I Responsive tool:  
