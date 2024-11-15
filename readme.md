@@ -6,6 +6,8 @@ Welcome to **Surfing & Paradise** – a community-driven site that connects surf
 
 Surfing & Paradise hosts regular events, such as beach parties, picnics, and campfires, so members can relax and unwind after a surfing session. Families are welcome, as we encourage members to bring their kids along to share this family-friendly sport. This website aims to serve as an engaging, user-friendly guide for surf lovers. Built with a responsive, mobile-first approach, its layout caters to various content areas, ensuring ease of navigation and visual appeal.
 
+![Am I responsive screenshot](assets/images/screenshots/Am_I_Responsive.jpg)
+
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
@@ -91,11 +93,14 @@ Each aim is reflected in the design choices, such as the use of high-quality ima
 ### **Wireframes:**
 
 *Add wireframe visuals here:*
-I used****** to make a visual representation of the surfing website. Below are the initial design ideas:
-    * ![Homepage] ()
-    * ![Gallery] ()
-    * ![Signup] ()
-    COME BACK TO THIS SECTON
+Initially I drew a very basic draft of what the webpages may look like on mobile view. 
+
+[Homepage/Gallery/Signup] (assets/images/screenshots/draft_mobile_view.JPG)
+
+Once the website was complete Am I Responsive tool was used display the website on different screen sizes. Below are the initial design ideas:
+    * ![Homepage] (assets/images/screenshots/Am_I_Responsive.jpg) (assets/images/screenshots/Am_I_Responsive2.jpg)(assets/images/screenshots/Am_I_Responsive3.jpg)
+    * ![Gallery] (assets/images/screenshots/Am_I_Responsive_Gallery.jpg)
+    * ![Signup] (assets/images/screenshots/Am_I_Responsive_signup.jpg)
 
 ### **Color Scheme:**
 
