@@ -41,7 +41,7 @@ Surfing & Paradise hosts regular events, such as beach parties, picnics, and cam
     * [**Content**](#content)
     * [**Media**](#media)
 
-## **Planning stage**
+### **Planning stage**
     In the planning stage, key elements were defined to shape the website’s structure, including user experience (UX) principles, aesthetic style, and interactive features. Each section was designed to enhance engagement and usability, focusing on both desktop and mobile views.
 ### **Target Audiences:**
 * Surfing enthusiasts of all levels
@@ -82,7 +82,7 @@ Each aim is reflected in the design choices, such as the use of high-quality ima
 *Add wireframe visuals here:*
 Initially I drew a very basic draft of what the webpages may look like on mobile view. 
 
-[Homepage/Gallery/Signup] (assets/images/screenshots/draft_mobile_view.JPG)
+[Homepage/Gallery/Signup] (assets\images\screenshots\draft_mobile_view.jpg)
 
 Once the website was complete Am I Responsive tool was used display the website on different screen sizes. Below are the initial design ideas:
     * ![Homepage] (assets/images/screenshots/Am_I_Responsive.jpg) (assets/images/screenshots/Am_I_Responsive2.jpg)(assets/images/screenshots/Am_I_Responsive3.jpg)
@@ -145,13 +145,6 @@ arties, picnics, and campfires, so members can relax and unwind after a surfing 
 
 ---
 
-## Table of Contents
-- **Site Overview**
-- **Planning Stage**
-  - Target Audiences# Surfing & Paradise
-
----
-
 ## **Testing Phase**
 
 ### **Testing**
@@ -164,8 +157,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Initial tests shows were no error to be corrected.
     ![Initial test results](assets/images/screenshots/homepage_initial_test_results.png)
-    After fixing the errors, the final test results confirm no errors or warnings.
-    ![Final test results](assets/images/screenshots/homepage_final_test_results.png)
 
 
     **Gallery Page:**
