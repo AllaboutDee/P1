@@ -116,7 +116,7 @@ I selected a vibrant color scheme inspired by the sea, with blues and greens as 
 1.  [VisualStudioCode:](https://code.visualstudio.com/)
     1.  Visual Studio Code was used to write the project code and then pushed through to the Git Repository.
 1. [Favicon.io:](https://favicon.io/)
-    - Favicon.io was used to create a favicon to display in the browser. Image of a man holding a surfboard was downloaded from pixabay. This was this uploaded to favicon.io to convert the image and create the favicon item. 
+    - Favicon.io was used to create a favicon to display in the browser. Image of a man holding a surfboard was downloaded from pixabay. This was then uploaded to favicon.io to convert the image and create the favicon item. 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the navigation links
 1. [Pixabay:](https://pixabay.com/)
@@ -130,6 +130,7 @@ I selected a vibrant color scheme inspired by the sea, with blues and greens as 
 ## **Browser** 
 
 The browser for any page displays the favicon I generated using the favicon.io tool.
+[Favicon large](assets/images/favicon.jpg)
 [Favicon](assets/Favicon/favicon-32x32.png)
 
 ### **Main body**
